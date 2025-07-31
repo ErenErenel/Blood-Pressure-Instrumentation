@@ -1,4 +1,4 @@
-# Blood Pressure Instrumentation – Digital Signal Processing
+# Blood Pressure Instrumentation 
 
 This repository contains the signal processing pipeline used to extract physiological parameters from blood pressure waveform data acquired in a biomedical instrumentation lab. Analog conditioning (e.g., filtering, amplification) was done externally; this repo focuses on the digital analysis phase.
 
