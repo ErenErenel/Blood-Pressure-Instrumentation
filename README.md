@@ -2,7 +2,7 @@
 
 This repository contains the signal processing pipeline used to extract physiological parameters from blood pressure waveform data acquired in a biomedical instrumentation lab. Analog conditioning (e.g., filtering, amplification) was done externally; this repo focuses on the digital analysis phase.
 
-## DSP Pipeline Overview
+## Signal Processing Pipeline
 
 - **Input:** Raw pressure waveform post-analog filtering
 - **Steps:**
@@ -26,9 +26,9 @@ This repository contains the signal processing pipeline used to extract physiolo
 
 ## Files
 
-- `DigitalSignalProcessing/`: Python scripts for time/frequency-domain analysis
-- `BloodPressureInstrumentationExampleResult.pdf`: Final report with analysis outputs and plots
+- `Signal Processing/`: Python scripts for time/frequency-domain analysis
+- `Blood Pressure Instrumentation Example Result.pdf`: Final report with analysis outputs and plots
 
 ## Outcome
 
-This DSP pipeline demonstrates accurate extraction of cardiovascular metrics from conditioned blood pressure waveforms, showcasing envelope analysis, frequency-domain validation, and segmentation-based peak detection.
+This signal processing pipeline demonstrates accurate extraction of cardiovascular metrics from conditioned blood pressure waveforms, showcasing envelope analysis, frequency-domain validation, and segmentation-based peak detection.
